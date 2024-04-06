@@ -3,11 +3,11 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="container">
         <div className="contant">
           <div>
-            <h2 className="heading">Spark Inventive</h2>
+            <h2 className="heading">Welcome</h2>
           </div>
           <div>
             <p>
@@ -25,14 +25,14 @@ function Hero() {
         </div>
       </div>
       <div className="sloganContainer">
-          <div className="slogan">
-            <h3>Lorem, ipsum dolor.</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad voluptas,
-              voluptate placeat reprehenderit animi alias iure suscipit eius ipsum
-              praesentium!
-            </p>
-          </div>
+        <div className="slogan">
+          <h3>Lorem, ipsum dolor.</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+            voluptas, voluptate placeat reprehenderit animi alias iure suscipit
+            eius ipsum praesentium!
+          </p>
+        </div>
       </div>
     </div>
   );
