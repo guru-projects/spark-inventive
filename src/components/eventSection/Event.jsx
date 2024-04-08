@@ -1,16 +1,41 @@
-import React from 'react'
-import './Event.css'
+import React from "react";
+import "./Event.css";
+import event1 from '../../assets/event1.jpg'
+import event2 from '../../assets/event2.jpg'
+import event3 from '../../assets/event3.jpg'
+import event4 from '../../assets/event4.jpg'
+import event5 from '../../assets/event5.jpg'
 
 function Event() {
+
   return (
-    <div><b>Event</b>
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora maxime, ipsa quia quo veritatis laborum aperiam nisi nostrum molestias blanditiis suscipit ipsam alias eius non nemo dolores autem voluptate. Deleniti porro in ipsa perspiciatis? Inventore nisi quo quam quos. Aliquam placeat sequi necessitatibus deserunt at maiores explicabo labore dolorum expedita eveniet et veniam consequuntur, maxime atque, accusantium saepe ipsa odit magnam quo unde quibusdam! Distinctio cum voluptates vitae ratione. Aut, et totam? Error aut delectus vel. Ex, quae molestias exercitationem facilis ea obcaecati dolorem, officia nihil, veniam deleniti veritatis maiores? Autem id beatae omnis! Esse nisi unde optio soluta non?</div>
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora maxime, ipsa quia quo veritatis laborum aperiam nisi nostrum molestias blanditiis suscipit ipsam alias eius non nemo dolores autem voluptate. Deleniti porro in ipsa perspiciatis? Inventore nisi quo quam quos. Aliquam placeat sequi necessitatibus deserunt at maiores explicabo labore dolorum expedita eveniet et veniam consequuntur, maxime atque, accusantium saepe ipsa odit magnam quo unde quibusdam! Distinctio cum voluptates vitae ratione. Aut, et totam? Error aut delectus vel. Ex, quae molestias exercitationem facilis ea obcaecati dolorem, officia nihil, veniam deleniti veritatis maiores? Autem id beatae omnis! Esse nisi unde optio soluta non?</div>
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora maxime, ipsa quia quo veritatis laborum aperiam nisi nostrum molestias blanditiis suscipit ipsam alias eius non nemo dolores autem voluptate. Deleniti porro in ipsa perspiciatis? Inventore nisi quo quam quos. Aliquam placeat sequi necessitatibus deserunt at maiores explicabo labore dolorum expedita eveniet et veniam consequuntur, maxime atque, accusantium saepe ipsa odit magnam quo unde quibusdam! Distinctio cum voluptates vitae ratione. Aut, et totam? Error aut delectus vel. Ex, quae molestias exercitationem facilis ea obcaecati dolorem, officia nihil, veniam deleniti veritatis maiores? Autem id beatae omnis! Esse nisi unde optio soluta non?</div>
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora maxime, ipsa quia quo veritatis laborum aperiam nisi nostrum molestias blanditiis suscipit ipsam alias eius non nemo dolores autem voluptate. Deleniti porro in ipsa perspiciatis? Inventore nisi quo quam quos. Aliquam placeat sequi necessitatibus deserunt at maiores explicabo labore dolorum expedita eveniet et veniam consequuntur, maxime atque, accusantium saepe ipsa odit magnam quo unde quibusdam! Distinctio cum voluptates vitae ratione. Aut, et totam? Error aut delectus vel. Ex, quae molestias exercitationem facilis ea obcaecati dolorem, officia nihil, veniam deleniti veritatis maiores? Autem id beatae omnis! Esse nisi unde optio soluta non?</div>
-        <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora maxime, ipsa quia quo veritatis laborum aperiam nisi nostrum molestias blanditiis suscipit ipsam alias eius non nemo dolores autem voluptate. Deleniti porro in ipsa perspiciatis? Inventore nisi quo quam quos. Aliquam placeat sequi necessitatibus deserunt at maiores explicabo labore dolorum expedita eveniet et veniam consequuntur, maxime atque, accusantium saepe ipsa odit magnam quo unde quibusdam! Distinctio cum voluptates vitae ratione. Aut, et totam? Error aut delectus vel. Ex, quae molestias exercitationem facilis ea obcaecati dolorem, officia nihil, veniam deleniti veritatis maiores? Autem id beatae omnis! Esse nisi unde optio soluta non?</div>
+    <div className="event" id="event">
+      <div className="title">
+        <h1>Event</h1>
+      </div>
+
+      <div className="gridContainer">
+        <div className="eventGrid">
+          <div className="card card1">
+            <img src={event1} alt="card1" />
+          </div>
+          <div className="card card2">
+            <img src={event2} alt="card1" />
+          </div>
+          <div className="card card3">
+            <img src={event3} alt="card1" />
+          </div>
+          <div className="card card4">
+            <img src={event4} alt="card1" />
+          </div>
+          <div className="card card5">
+            <img src={event5} alt="card1" />
+          </div>
+        </div>
+      </div>
+
     </div>
-  )
+  );
 }
 
-export default Event
+export default Event;

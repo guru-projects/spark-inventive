@@ -1,6 +1,7 @@
 import { React, useState } from "react";
 import "./Header.css";
-import { HashLink as Link, NavHashLink } from "react-router-hash-link";
+import { HashLink as Link } from "react-router-hash-link";
+import logo from '../../assets/name.png'
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -23,8 +24,8 @@ function Header() {
 
   return (
     <nav className="header" id="header">
-      <Link to="#hero" className="logo" smooth onClick={removeActive}>
-        Spark Inventive
+      <Link to="#hero" className="logo" smooth onClick={removeActive} scroll={el => scrollWithOffset(el, 100)}>
+        <img src={logo} alt="logo" />
       </Link>
       <div className="navbar">
         <div className="navInside">
@@ -32,22 +33,22 @@ function Header() {
             className={isActive ? "navMenu active" : "navMenu"}
             onClick={removeActive}>
             <li onClick={removeActive}>
-              <Link to="#about" smooth>
+              <Link to="#about" smooth scroll={el => scrollWithOffset(el, 100)}>
                 About
               </Link>
             </li>
             <li onClick={removeActive}>
-              <Link to="#services" smooth>
+              <Link to="#services" smooth scroll={el => scrollWithOffset(el, 100)}>
                 Services
               </Link>
             </li>
             <li onClick={removeActive}>
-              <Link to="#event" smooth>
+              <Link to="#event" smooth scroll={el => scrollWithOffset(el, 100)}>
                 Event
               </Link>
             </li>
             <li onClick={removeActive}>
-              <Link to="#contact" smooth>
+              <Link to="#contact" smooth scroll={el => scrollWithOffset(el, 100)}>
                 Contact us
               </Link>
             </li>

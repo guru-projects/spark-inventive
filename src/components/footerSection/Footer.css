@@ -1,0 +1,10 @@
+.footer{
+    font-family: "Inter", sans-serif;
+    margin-top: 100px;
+    border-top: 2px solid #e2e2e2;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

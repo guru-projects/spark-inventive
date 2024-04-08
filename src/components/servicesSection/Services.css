@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+
+*{
+    /* font-family: "Inter", sans-serif; */
+    color: #171D1A;
+}
+.services{
+    font-family: "Inter", sans-serif;
+    margin-top: 100px;
+    display: grid;
+    place-items: center;
+}
+.serviceDetails{
+    max-width: 1000px;
+    width: 100%;
+
+}
+.serviceDetails .head{
+    padding-left: 20px;
+    margin-right: auto;
+}
+.serviceContainer{
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.sloganHead{
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.5rem;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+.serviceSlogan{
+    padding-right: 20px;
+    max-width: 400px;
+    padding-bottom: 20px;
+}
+.serviceSlogan .head{
+    margin-left: -20px;
+}
+.serviceSlogan button{
+    cursor: pointer;
+    text-align: left;
+    /* color: #5F10F4; */
+    color: #D8BE26;
+    border: none;
+    background-color: #fff;
+}
+.serviceBox{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+@media (max-width: 750px){
+    .serviceBox{
+        flex-direction: column;
+    }
+}
