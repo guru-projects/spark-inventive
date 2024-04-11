@@ -45,7 +45,7 @@
     cursor: pointer;
     text-align: left;
     /* color: #5F10F4; */
-    color: #D8BE26;
+    color: var(--yellow);
     border: none;
     background-color: #fff;
 }

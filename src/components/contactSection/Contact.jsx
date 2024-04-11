@@ -13,11 +13,11 @@ function Contact() {
             <div className="contactInfo">
                 <div className='details'>
                     <img src={call} alt="call" />
-                    <p>+ 123 (456) 789</p>
+                    <p>+91 7904686367</p>
                 </div>
                 <div className='details'>
                     <img src={email} alt="email" />
-                    <p>info@example.com</p>
+                    <p>sparkinventive@gmail.com</p>
                 </div>
                 <div className='details'>
                     <img src={location} alt="location" />

@@ -1,10 +1,9 @@
 import React from "react";
 import "./Hero.css";
-import logo from '../../assets/logo.png';
+import logo from "../../assets/logo.png";
 import { HashLink as Link } from "react-router-hash-link";
 
 function Hero() {
-
   const scrollWithOffset = (el, offset) => {
     const elementPosition = el.offsetTop - offset;
     window.scroll({
@@ -23,15 +22,22 @@ function Hero() {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-              voluptas temporibus rerum quas accusantium reprehenderit,
-              perspiciatis est cupiditate harum eum?
+              Welcome to Spark Inventive, where creativity sparks innovation and
+              passion fuels change. Our placement-integrated programs,
+              seamlessly woven into academic hours, pave the way for student
+              success. Step into the practical world where your academic
+              syllabus transforms into hands-on experience. Join us and bridge
+              the gap between theory and practice and we'll shape a brighter
+              tomorrow.
             </p>
           </div>
-          <div>
-          <Link to="#contact" smooth scroll={el => scrollWithOffset(el, 100)}>
-            <button>Contact us</button>
-          </Link>
+          <div className="contactButton">
+            <Link
+              to="#contact"
+              smooth
+              scroll={(el) => scrollWithOffset(el, 100)}>
+              <button>Contact us</button>
+            </Link>
           </div>
         </div>
         <div className="image">
@@ -40,11 +46,17 @@ function Hero() {
       </div>
       <div className="sloganContainer">
         <div className="slogan">
-          <h3>Lorem, ipsum dolor.</h3>
+          <h3>Beyond Academics</h3>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
-            voluptas, voluptate placeat reprehenderit animi alias iure suscipit
-            eius ipsum praesentium!
+            We believe in fostering a holistic approach to
+            learning—one that encompasses not only academic excellence, but also
+            personal growth, creativity, and innovation. By integrating
+            real-world industry experience into our curriculum, But we don't stop there. Beyond training classes and
+            traditional academics, students are actively engaged in hands-on
+            development projects. From brainstorming sessions to prototype
+            creation, At Spark Inventive,
+            education isn't just about what you learn—it's about what you
+            create, what you contribute, and the impact you make.
           </p>
         </div>
       </div>
