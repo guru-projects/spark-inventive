@@ -1,0 +1,64 @@
+.event{
+  font-family: "Inter", sans-serif;
+    margin-top: 100px;
+}
+.gridContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .eventGrid {
+    display: grid;
+    width: 100%;
+    max-width: 1000px;
+    /* height: auto; */
+    /* max-height: fit-content; */
+    gap: 0.5rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 200px);
+    padding: 0.5rem;
+  }
+
+@media screen and (min-width: 540px) {
+  .eventGrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
+  @media (min-width: 500px) {
+    .eventGrid {
+      grid-template-rows: repeat(3, 180px);
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .eventGrid .card {
+        border-radius: 1rem;
+      &:nth-of-type(1) {
+        grid-row: 1/3;
+      }
+      &:nth-of-type(2) {
+        grid-row: 3/4;
+      }
+      &:nth-of-type(5) {
+        grid-column: 2/4;
+        grid-row: 2/4;
+      }
+    }
+  }
+  img{
+    border-radius: 1rem;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+  }
+  .title {
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    padding-left: 20px;
+    width: 1000px;
+    display: flex;
+    /* text-align: left; */
+}

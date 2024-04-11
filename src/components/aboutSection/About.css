@@ -1,0 +1,41 @@
+.about{
+    font-family: "Inter", sans-serif;
+    margin-top: 100px;
+}
+.contentSection{
+    display: flex;
+    justify-content: center;
+}
+.content {
+    text-align: justify;
+    line-height: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    max-width: 1000px;
+    display: flex;
+    gap: 60px;
+}
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+}
+.learnMoreButton{
+    margin-top: -40px;
+    border: none;
+    color: rgb(17, 132, 255);
+    background-color: #fff;
+    text-align: left;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+    padding-left: 20px;
+    width: 1000px;
+    display: flex;
+    /* text-align: left; */
+}
