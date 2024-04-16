@@ -1,5 +1,4 @@
 .about{
-    font-family: "Inter", sans-serif;
     margin-top: 100px;
 }
 .contentSection{
@@ -7,6 +6,7 @@
     justify-content: center;
 }
 .content {
+    font-family: "Poppins", sans-serif; 
     text-align: justify;
     line-height: 1.5rem;
     border: 1px solid #ccc;
@@ -30,6 +30,7 @@
     text-align: left;
 }
 .title {
+    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
 }

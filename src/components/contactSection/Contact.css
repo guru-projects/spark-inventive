@@ -1,5 +1,5 @@
 .contact{
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 0 10px;
     margin-top: 100px;
     display: flex;
@@ -32,6 +32,7 @@
     /* padding: 0 20px; */
 }
 .details p{
+    font-family: "Poppins", sans-serif; 
     text-align: left;
     /* width: 200px; */
 }

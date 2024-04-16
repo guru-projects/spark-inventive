@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
 
 *{
-    /* font-family: "Inter", sans-serif; */
     color: #171D1A;
 }
 .hero {
-  font-family: "Inter", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   margin-top: 70px;
 }
 .container {
@@ -22,9 +21,13 @@
   max-width: 500px;
 }
 .contant .heading {
-  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
 }
 .container p{
+  font-family: "Poppins", sans-serif;
+  font-family: 600;
   text-align: justify;
   padding-right: 20px;
 }
@@ -82,6 +85,7 @@
   justify-content: center;
 }
 .slogan {
+  font-family: "Poppins", sans-serif;
   padding-left: 20px;
   border: 1px solid var(--yellow);
   box-shadow: -10px 10px var(--yellow);
@@ -96,6 +100,7 @@
 .slogan:hover {
   box-shadow: 0 0 var(--yellow);
 }
+
 
 @media (min-width: 800px) {
   .hero {
