@@ -1,10 +1,10 @@
 import React from "react";
 import "./Event.css";
-import event1 from '../../assets/event1.jpg'
-import event2 from '../../assets/event2.jpg'
-import event3 from '../../assets/event3.jpg'
-import event4 from '../../assets/event4.jpg'
-import event5 from '../../assets/event5.jpg'
+import event1 from '../../assets/event1.jpeg'
+import event2 from '../../assets/event2.jpeg'
+import event3 from '../../assets/event3.jpeg'
+import event4 from '../../assets/event4.jpeg'
+import event5 from '../../assets/event5.jpeg'
 
 function Event() {
 

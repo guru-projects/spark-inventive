@@ -21,7 +21,7 @@ function Services() {
               academic hours approach empowers students to bridge theory with
               practice, cultivating essential skills and insights that propel
               them toward success in both their academic and professional
-              endeavors.
+              endeavors
             </div>
           </div>
           <div className="serviceBox">
