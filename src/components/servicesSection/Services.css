@@ -45,7 +45,7 @@
     cursor: pointer;
     text-align: left;
     /* color: #5F10F4; */
-    color: var(--yellow);
+    color: #4493F8;
     border: none;
     background-color: #fff;
 }
@@ -58,6 +58,9 @@
 }
 .info{
     font-family: "Poppins", sans-serif;
+}
+.serviceSlogan ul {
+    list-style-type: disc;
 }
 @media (max-width: 750px){
     .serviceBox{

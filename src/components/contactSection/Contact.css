@@ -7,6 +7,8 @@
     align-content: center;
 }
 .contactSection{
+    background: transparent;
+    background-color: aliceblue;
     padding-bottom: 20px;
     max-width: 600px;
     display: flex;
@@ -14,7 +16,7 @@
     justify-content: center;
     align-content: center;
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 1rem;
 }
 .details {

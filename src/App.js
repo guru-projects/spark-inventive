@@ -6,7 +6,7 @@ import Event from './components/eventSection/Event';
 import Footer from './components/footerSection/Footer';
 import Contact from './components/contactSection/Contact';
 import Services from './components/servicesSection/Services';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter,} from 'react-router-dom';
 
 function App() {
   return (

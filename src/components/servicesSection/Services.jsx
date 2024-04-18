@@ -28,17 +28,28 @@ function Services() {
             <div className="serviceItem">
               <div className="slogan serviceSlogan">
                 <h2 className="head">
-                  Our Service: Integrated Field Experiences Training Within
-                  Academic Hours
+                  Transforming Education with Practical Experience:
                 </h2>
                 <p className="info">
-                  We cover a diverse range of fields, including AI, VR/AR
-                  development, cybersecurity, and data analytics, integrating
-                  these domains to provide an advanced syllabus for students.
-                  Our goal is to prepare them for successful placements in top
-                  IT companies. This approach not only boosts students'
-                  confidence but also keeps them updated with the latest
-                  technology and deep learning in their syllabus.
+                  At Spark inventive, we offer a dynamic approach to learning
+                  through our innovative services: Practical Training Sessions:
+                  Immerse yourself in the exciting world of emerging
+                  technologies right within your regular academic schedule. Our
+                  interactive training sessions offer practical experiences that
+                  complement your traditional coursework. Explore cutting-edge
+                  topics such as:
+                  <ul>
+                    <li>CyberAI-Securing with Artificial Intelligence </li>
+                    <li>AI-Infused Data Handling</li>
+                    <li>Cybersecurity in Robotics for Defense and Security</li>
+                  </ul>
+                  And much more... From harnessing the power of AI to enhance
+                  cybersecurity to mastering data handling techniques infused
+                  with artificial intelligence, our training sessions equip you
+                  with the skills demanded by today's rapidly evolving tech
+                  landscape. Prepare to embark on a journey of discovery and
+                  innovation as you delve into these transformative fields
+                  during your academic journey.
                 </p>
                 <button>Learn more</button>
               </div>
@@ -46,15 +57,27 @@ function Services() {
             <div>
               <div className="slogan serviceSlogan">
                 <h2 className="head">
-                  AI and Robotics Products for Live Teaching Sessions
+                  Innovative In-Hour Project Internships for All Students:
                 </h2>
                 <p className="info">
-                  We offer AI and robotics products designed specifically for
-                  live teaching sessions, providing students with hands-on
-                  experience. These products are developed through our
-                  internship program, available to all students in the
-                  university. This real-world experience enhances their learning
-                  and prepares them for the challenges of tomorrow.
+                  Immerse yourself in cutting-edge projects spanning AI,
+                  robotics, IoT, and more! Under the guidance of experienced
+                  mentors, students take the lead in hands-on projects within
+                  the confines of their academic hours. This unique approach
+                  transforms theoretical knowledge into tangible skills,
+                  ensuring equal internship opportunities for all.
+                  <ul>
+                    <li>Robotics</li>
+                    <li>Augmented reailty and vitrual reailty</li>
+                    <li>Generative Ai</li>
+                  </ul>
+                  By seamlessly integrating training sessions with project
+                  development, students bridge the gap between theory and
+                  practice. This fusion empowers them to apply classroom
+                  concepts directly to real-world projects, thereby enriching
+                  their skill set and bolstering their career prospects. Join us
+                  in revolutionizing education by embracing experiential
+                  learning tailored to the demands of the modern world.
                 </p>
                 <button>Learn more</button>
               </div>
