@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
 
 *{
-    /* font-family: "Inter", sans-serif; */
     color: #171D1A;
 }
 .services{
-    font-family: "Inter", sans-serif;
     margin-top: 100px;
     display: grid;
     place-items: center;
@@ -16,10 +13,12 @@
 
 }
 .serviceDetails .head{
+    font-family: "Poppins", sans-serif;
     padding-left: 20px;
     margin-right: auto;
 }
 .serviceContainer{
+    padding: 10px;
     /* border: 1px solid #ccc; */
     display: flex;
     flex-direction: column;
@@ -27,10 +26,10 @@
 }
 .sloganHead{
     text-align: center;
-    font-family: "Dancing Script", cursive;
-    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
   font-optical-sizing: auto;
-  font-weight: 900;
+  font-weight: 300;
   font-style: normal;
 }
 .serviceSlogan{
@@ -42,10 +41,11 @@
     margin-left: -20px;
 }
 .serviceSlogan button{
+    font-family: "Poppins", sans-serif;
     cursor: pointer;
     text-align: left;
     /* color: #5F10F4; */
-    color: var(--yellow);
+    color: #4493F8;
     border: none;
     background-color: #fff;
 }
@@ -55,6 +55,12 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+}
+.info{
+    font-family: "Poppins", sans-serif;
+}
+.serviceSlogan ul {
+    list-style-type: disc;
 }
 @media (max-width: 750px){
     .serviceBox{

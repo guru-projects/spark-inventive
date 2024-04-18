@@ -1,5 +1,4 @@
 .event{
-  font-family: "Inter", sans-serif;
     margin-top: 100px;
 }
 .gridContainer {
@@ -10,6 +9,8 @@
     justify-content: center;
   }
   .eventGrid {
+    border: 1px solid #ccc;
+    border-radius: 20px;
     display: grid;
     width: 100%;
     max-width: 1000px;
@@ -53,6 +54,7 @@
     object-fit:cover;
   }
   .title {
+    font-family: "Poppins", sans-serif;
     display: flex;
     justify-content: center;
 }

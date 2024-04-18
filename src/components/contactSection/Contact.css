@@ -1,5 +1,5 @@
 .contact{
-    font-family: "Inter", sans-serif;
+    font-family: "Poppins", sans-serif;
     padding: 0 10px;
     margin-top: 100px;
     display: flex;
@@ -7,6 +7,8 @@
     align-content: center;
 }
 .contactSection{
+    background: transparent;
+    background-color: aliceblue;
     padding-bottom: 20px;
     max-width: 600px;
     display: flex;
@@ -14,7 +16,7 @@
     justify-content: center;
     align-content: center;
     width: 100%;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     border-radius: 1rem;
 }
 .details {
@@ -32,6 +34,7 @@
     /* padding: 0 20px; */
 }
 .details p{
+    font-family: "Poppins", sans-serif; 
     text-align: left;
     /* width: 200px; */
 }
